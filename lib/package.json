@@ -1,0 +1,24 @@
+{
+  "name": "rc-waterfall-layout",
+  "version": "0.1.0",
+  "description": "A waterfall layout component for React.",
+  "author": {
+    "name": "bonon"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "license": "MIT",
+  "main": "./rc-waterfall-layout.umd.js",
+  "module": "./rc-waterfall-layout.es.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./rc-waterfall-layout.es.js",
+      "require": "./rc-waterfall-layout.umd.js"
+    }
+  }
+}
